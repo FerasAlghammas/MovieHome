@@ -1,0 +1,53 @@
+.movie-details-container {
+  max-width: 1000px;
+  margin: 3rem auto;
+  background: #1e1e1e;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.movie-details-container img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 2rem;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.movie-details-container h1 {
+  font-size: 3rem;
+  color: cyan;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+
+.movie-details-container p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+.movie-details-container button {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background: cyan;
+  border: none;
+  border-radius: 10px;
+  color: #121212;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.movie-details-container button:hover {
+  background-color: #00bcd4;
+  transform: scale(1.05);
+}
